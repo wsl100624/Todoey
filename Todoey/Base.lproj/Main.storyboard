@@ -33,13 +33,13 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" title="Todoey" id="I7e-4N-2zo">
-                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="ZUO-q0-HkJ">
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="Fne-7o-dAa">
                             <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <connections>
+                                <action selector="addItemButton:" destination="8bm-7N-Vu7" id="RqE-eV-Ot3"/>
+                            </connections>
                         </barButtonItem>
                     </navigationItem>
-                    <connections>
-                        <outlet property="addItemButton" destination="ZUO-q0-HkJ" id="DeQ-Da-yz9"/>
-                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ZBR-P3-NFm" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
